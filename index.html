@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Rituraj Panday</title>
+    <link rel="icon" href="ERR.jpg">
+</head>
+<body>
+    <!----Header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Certificates">Certificates</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!----Home design-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hii, Myself</h3>
+            <h1>Rituraj Panday</h1>
+            <h3> And I'm a <span class="multiple-text"></span></h3>
+            <p> A passionate Front-end React Developer based in Noida, India.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/rituraj.panday.319/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/rituraj.100323?igsh=NHIwa25mcHBjNjN4"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rituraj-panday-199746225"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Rituraj-panday"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="My cv.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="profiledp.png" alt="#">
+        </div>
+    </section>
+
+    <!----About design-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="aboutpic.png" alt="#">
+        </div>
+
+        <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>I am a passionate Web Developer and designer with a creative mind and a love for building beautiful and functional websites. I enjoy bringing ideas to life through coding and design, and I'm always  eager to learn and explore new technologies to create amazing online experiences.</p>
+                <a href="https://web.whatsapp.com/send?phone=+919625532552&text=Hello!" target="_blank" class="btn">Let's Talk</a>
+
+        </div>
+    </section>
+
+    <!----certificate design-->
+
+    <section class="certificate" id="Certificates">
+        <h2 class="heading">My <span>Certificates</span></h2>
+        <!-- Certificate images -->
+        <div class="certificate-image" id="c7.png">
+            <a href="c7.png" target="_blank"><img src="c7.png" alt="Certificate 1"></a>
+        </div>
+        <div class="certificate-image" id="c9.png">
+            <a href="c9.png" target="_blank"><img src="c9.png" alt="Certificate 2"></a>
+        </div>
+        <div class="certificate-image" id="c8.png">
+            <a href="c8.png" target="_blank"><img src="c8.png" alt="Certificate 3"></a>
+        </div>
+        <div class="certificate-image" id="c5.JPG">
+            <a href="c5.JPG" target="_blank"><img src="c5.JPG" alt="Certificate 4"></a>
+        </div>
+        <div class="certificate-image" id="c6.JPG">
+            <a href="c6.JPG" target="_blank"><img src="c6.JPG" alt="Certificate 5"></a>
+        </div>
+        <div class="certificate-image" id="c4.JPG">
+            <a href="c4.JPG" target="_blank"><img src="c4.JPG" alt="Certificate 6"></a>
+        </div>
+        <div class="certificate-image" id="c3.JPG">
+            <a href="c3.JPG" target="_blank"><img src="c3.JPG" alt="Certificate 7"></a>
+        </div>
+        <div class="certificate-image" id="c1.JPG">
+            <a href="c1.JPG" target="_blank"><img src="c1.JPG" alt="Certificate 8"></a>
+        </div>
+        <div class="certificate-image" id="c2.JPG">
+            <a href="c2.JPG" target="_blank"><img src="c2.JPG" alt="Certificate 9"></a>
+        </div>
+        <ul class="certificate-list">
+            <li class="certificate-item" onclick="toggleCertificate('c7.png')">CISCO</li>
+            <li class="certificate-item" onclick="toggleCertificate('c9.png')">CYBER SECURITY</li>
+            <li class="certificate-item" onclick="toggleCertificate('c8.png')">PCAP</li>
+            <li class="certificate-item" onclick="toggleCertificate('c5.JPG')">AKTU TECH FEST</li>
+            <li class="certificate-item" onclick="toggleCertificate('c6.JPG')">TECH SUMMIT ORGANIZER</li>
+            <li class="certificate-item" onclick="toggleCertificate('c4.JPG')">YUVA STUDENT COUNCIL</li>
+            <li class="certificate-item" onclick="toggleCertificate('c3.JPG')">TECH PRAVAAH</li>
+            <li class="certificate-item" onclick="toggleCertificate('c1.JPG')">PROMOTION MANAGER</li>
+            <li class="certificate-item" onclick="toggleCertificate('c2.JPG')">DECOR MEMBER</li>
+        </ul>
+    </section>
+
+
+
+    <!----project design-->
+
+    <section class="projects" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>"Personal portfolio: Showcase of My work, skills, and achievements, serving as a professional identity and attracting career opportunities."</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="2.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Commercial website</h4>
+                    <p>"Commercial websites: digital platforms showcasing products or services, facilitating transactions, and promoting businesses to a global audience for profitability."</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="6.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Attandance Manager</h4>
+                    <p>"Automated attendance tracker: records, analyzes, and manages attendance data efficiently, enhancing organization's productivity and accountability with user-friendly interface."</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="4.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quasi?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+
+            <div class="project-box">
+                <img src="5.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quasi?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="3.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quasi?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----contact design-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="mailto:Ekriturajta2511@gmail.com" method="post" enctype="text/plain">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </section>
+
+    <!----Footer design-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Rituraj.100323 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!----Scroll reveal JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+<!----Typed JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!----Main JS-->
+    <script src="main.js"></script>
+</body>
+</html>
